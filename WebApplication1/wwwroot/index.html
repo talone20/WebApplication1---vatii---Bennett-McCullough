@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--This represents the head in my webpage, including the chad icon-->
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/jpg" href="img/favicon.jpg" />
+    <title>Bennett and his Grade Calculator</title>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <!-- This is a bit about me with a photo of my greatest duell. Also my top jobs -->
+        <p>Bennett is my preffered name</p>
+    </header>
+    <img id="saber" src="img/saber.jpg" />
+    <p>I hope to learn a lot about web app development, get a good grade and prepare myself for 
+    an internship next summer. I would like to thank my family, friends, as well as the wife and kids I don't have</p>
+    <br />
+
+    <p>Top 3 Jobs coming up below</p>
+    <ul>
+        <li>Web Developer</li>
+        <li>Cyber Security Analyst</li>
+        <li>Consultant</li>
+    </ul>
+
+    <!-- This grade calculator takes grade weights from IS413 and calcualtes a total grade and letter grade -->
+    <h2>Grade Calculator</h2>
+    <form>
+        <label>Assignments:</label>
+        <input id="Assignments" /> <br />
+        <label>Group Project:</label>
+        <input id="Group" /> <br />
+        <label>Quizzes:</label>
+        <input id="Quizzes" /> <br />
+        <label>Midterm Exam:</label>
+        <input id="Midterm" /> <br />
+        <label>Final Exam:</label>
+        <input id="Final" /> <br />
+        <label>Intex:</label>
+        <input id="Intex" /> <br />
+        <label>Letter Grade: <span id="letterGrade">____</span></label>
+        <label>Number Grade: <span id="numberGrade">____</span></label>
+
+        <input id="btnSend" type="button" value="Calculate Grade" />
+    </form>
+
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/Grades.js"></script>
+</body>
+</html>
