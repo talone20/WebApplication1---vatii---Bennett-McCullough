@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- Layout default view for the rest of them -->
+    <meta name="viewport" content="width=device-width" />
+    <!--This represents the head in my webpage, including the chad icon-->
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/jpg" href="img/favicon.jpg" />
+    <title>@ViewData["Title"]</title>
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/default.css" rel="stylesheet" />
+</head>
+<body>
+    <nav>
+        <a asp-controller="what" asp-action="Index">Home</a>
+        <a asp-controller="what" asp-action="CalcGrades">Calc Grades</a>
+    </nav>
+
+    <div>
+        @RenderBody()
+    </div>
+
+
+    <footer>This footer go hard</footer>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+
+</body>
+
+</html>

@@ -24,6 +24,8 @@ $("#btnSend").click(function () {
     $("#letterGrade").text(letterGrade);
     $("#numberGrade").text(finalGrade);
 
+
+
     /*Finally, I fade out my photo for cool effect*/
     $("#saber").fadeOut("slow");
 })
